@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import nour from "../assets/nour.png";
 import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
+
 
 const Hero = () => {
   return (
@@ -53,4 +55,5 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+
+export default SectionWrapper(Hero, "hero");

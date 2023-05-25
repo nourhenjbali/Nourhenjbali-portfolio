@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -9,20 +7,10 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   springboot,
   cody,
   python,
@@ -248,8 +236,7 @@ const projects = [
     image: enicar,
     source_code_link: "https://github.com/nourhenjbali/Enicar_internships",
   },
-  
-  
+
   {
     name: "MERN Stack Booking System ",
     description:
@@ -269,7 +256,8 @@ const projects = [
       },
     ],
     image: booking,
-    source_code_link: "https://github.com/nourhenjbali/MERN-Stack-Booking-System",
+    source_code_link:
+      "https://github.com/nourhenjbali/MERN-Stack-Booking-System",
   },
   {
     name: "FrontEnd Angular Project -- Employee Management ",
@@ -288,9 +276,7 @@ const projects = [
     image: angularproj,
     source_code_link: "https://github.com/nourhenjbali/AngularProject",
   },
- 
- 
-  
+
   {
     name: "Airport Management -- C++ Project ",
     description:
@@ -302,7 +288,8 @@ const projects = [
       },
     ],
     image: c,
-    source_code_link: "https://github.com/nourhenjbali/Airport-Management/tree/main",
+    source_code_link:
+      "https://github.com/nourhenjbali/Airport-Management/tree/main",
   },
 ];
 

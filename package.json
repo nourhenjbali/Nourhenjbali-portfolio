@@ -1,9 +1,12 @@
 {
+  "homepage": "https://nourhenjbali.github.io/Nourhenjbali-portfolio",
   "name": "3dfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b deployment",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
